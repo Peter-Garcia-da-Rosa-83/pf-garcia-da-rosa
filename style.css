@@ -1,7 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  background-color: #f0ddea;
 }
 
 #img.id {
@@ -10,6 +9,7 @@
   width: 100px;
   flex-wrap: wrap;
 }
+
 header {
   /*Logo Nombre y Menu*/
   height: 30%;
@@ -25,15 +25,20 @@ header {
   border: 2px solid white;
   border-radius: 5px;
 }
+
 header h1 {
   /*Nombre de la Empresa*/
   color: rgb(160, 13, 62);
+  font-family: 'Rokkitt';
+  font-size: 42;
 }
+
 header nav {
   /*Manu*/
   font-size: 25px;
   word-spacing: 20px;
 }
+
 .container {
   /*Imagenes*/
   display: flex;
@@ -46,29 +51,29 @@ header nav {
   border: 2px solid white;
   border-radius: 5px;
 }
+
 footer {
-  /*Contactos*/
+  /*Redes Sociales*/
   height: 30%;
   width: 100%;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
   border: 2px solid white;
   border-radius: 10px;
-  background-color: rgb(241, 194, 213);
   font-family: "Rokkitt", serif;
-  padding-right: 15px;
-  padding-left: 15px;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
-.div {
-  background: #30333a;
-  font-family: arial;
+footer h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
 }
 
 ul {
   list-style: none;
 }
+
 ul li {
   width: 30px;
   height: 30px;
@@ -79,14 +84,16 @@ ul li {
   border-radius: 3px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
 ul li .fa {
   position: absolute;
   top: 30%;
   left: 30%;
   transform: translate(-50%, -50%);
   font-size: 20px;
-  color: #fff;
+  color: rgb(251, 249, 249);
 }
+
 ul li.facebook {
   background: #3b5998;
 }
@@ -114,31 +121,39 @@ ul li.instagram div.slider {
   border-radius: 3px;
   transition: all 0.5s 0.3s ease;
 }
+
 .slider p {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 900;
-  color: #fff;
+  color: rgb(16, 1, 1);
   text-align: center;
   line-height: 50px;
   opacity: 0;
   transition: all 0.6s ease;
 }
+
 ul li:hover .slider {
   width: 180px;
   transition: all 0.5s ease;
 }
+
 ul li:hover .slider p {
   opacity: 1;
   transition: all 1s 0.2s ease;
 }
-@media screen and (max-width: 600px) {
+
+
+@media screen and (max-width: 575px) {
+
+  /*Media Queries*/
   header {
     flex-direction: column;
     width: 100%;
     justify-content: center;
     align-content: center;
   }
+
   .container {
     flex-direction: column;
     width: 75vw;
@@ -146,6 +161,7 @@ ul li:hover .slider p {
     min-width: 320px;
     margin: auto;
   }
+
   .container img {
     display: flex;
     justify-content: center;
@@ -155,6 +171,7 @@ ul li:hover .slider p {
     border-radius: 15px;
     box-shadow: 0px 3px 5px rgba(15, 15, 15, 0.5);
   }
+
   footer {
     display: inline;
     flex-direction: column;
