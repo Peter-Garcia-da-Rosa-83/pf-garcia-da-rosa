@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(228, 212, 193);
+  }
+  
+  form {
+    display: grid;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d71118;
+  }
+  
+  @media (min-width: 576px) {
+    form {
+      color: rgb(18, 14, 227);
+    }
+  }
