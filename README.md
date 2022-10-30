@@ -1,1 +1,1 @@
-entrga de proyecto final del curso desarrollo web.
+Entrega del proyecto final  curso "Desarrollo Web".
