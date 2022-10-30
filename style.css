@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  background-color: #ecdee8;
+  background-color: #ebd6e5;
 }
 
 #img.id {
@@ -43,7 +43,7 @@ header nav {
   /*Imagenes*/
   display: flex;
   justify-content: space-around;
-  background-color: rgb(246, 203, 226);
+  background-color: rgb(240, 207, 224);
   margin-left: 0px;
   margin-right: 0px;
   padding: 0px;
@@ -57,90 +57,19 @@ footer {
   height: 30%;
   width: 100%;
   display: flex;
-  flex-direction: column;
   border: 2px solid white;
   border-radius: 10px;
-  font-family: "Rokkitt", serif;
   justify-content: center;
+  align-items: center;
   box-sizing: border-box;
+  background-color: #eed3e6;
 }
 
-footer h2 {
+footer a {
   font-family: Arial, Helvetica, sans-serif;
   margin: 10px;
-}
-
-ul {
-  list-style: none;
-}
-
-ul li {
-  width: 30px;
-  height: 30px;
-  position: relative;
-  background: #e59500;
-  margin: 10px 0;
-  cursor: pointer;
-  border-radius: 3px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-ul li .fa {
-  position: absolute;
-  top: 30%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
-  color: rgb(251, 249, 249);
-}
-
-ul li.facebook {
-  background: #3b5998;
-}
-
-ul li.instagram {
-  background: #bc2a8d;
-}
-
-ul li.facebook div.slider {
-  background: #627aac;
-}
-
-ul li.instagram div.slider {
-  background: #dd94c6;
-}
-
-.slider {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 51px;
-  width: 0px;
-  height: 50px;
-  background: #eebb5c;
-  border-radius: 3px;
-  transition: all 0.5s 0.3s ease;
-}
-
-.slider p {
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: 900;
-  color: rgb(16, 1, 1);
-  text-align: center;
-  line-height: 50px;
-  opacity: 0;
-  transition: all 0.6s ease;
-}
-
-ul li:hover .slider {
-  width: 180px;
-  transition: all 0.5s ease;
-}
-
-ul li:hover .slider p {
-  opacity: 1;
-  transition: all 1s 0.2s ease;
+  color: rgb(5, 33, 58);
+  font-size: 34;
 }
 
 
@@ -175,6 +104,6 @@ ul li:hover .slider p {
   footer {
     display: inline;
     flex-direction: column;
-    background-color: rgb(241, 194, 213);
+    background-color: rgb(83, 4, 36);
   }
 }
